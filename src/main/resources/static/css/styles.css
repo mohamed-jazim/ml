@@ -1,0 +1,57 @@
+body {
+    background: url('https://www.transparenttextures.com/patterns/cubes.png') repeat; /* Background pattern */
+    background-color: #222; /* Slightly darker background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #3b5998; /* Royal Blue container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px; /* Increased padding to expand the blue background */
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff; /* White text */
+}
+h1 {
+    color: #ffaf6c; /* Peach heading */
+}
+#webcam-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+#label-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #ffaf6c; /* Peach label background */
+    color: #3b5998; /* Royal Blue label text */
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-start, .btn-stop {
+    background-color: #ffaf6c; /* Peach button background */
+    color: #3b5998; /* Royal Blue button text */
+    border: none;
+    padding: 15px 30px; /* Increased button size */
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.btn-start:hover, .btn-stop:hover {
+    background-color: #ff9854; /* Slightly darker Peach on hover */
+}
+.btn-stop {
+    margin-left: 10px;
+}
